@@ -1,0 +1,20 @@
+{
+    "name": "php-poppler/php-poppler",
+    "type": "library",
+    "description": "PHP-Poppler",
+    "keywords": ["pdf", "poppler"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Poppler\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "alchemy/binary-driver": "~1.5"
+    },
+    "require-dev": {
+        "sami/sami"       : "~1.0",
+        "phpunit/phpunit" : "~3.7"
+    }
+}
