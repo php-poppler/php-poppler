@@ -4,6 +4,13 @@
     "description": "PHP-Poppler",
     "keywords": ["pdf", "poppler"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephan Wentz",
+            "email": "stephan@wentz.it",
+            "homepage": "http://www.wentz.it/"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Poppler\\": ""
